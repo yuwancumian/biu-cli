@@ -1,0 +1,33 @@
+{
+  "name": "biu-cli",
+  "version": "0.0.2",
+  "description": "",
+  "main": "./index.js",
+  "preferGlobal": "true",
+  "bin": {
+    "biu-cli": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js -h"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yuwancumian/biu-cli.git"
+  },
+  "keywords": [
+    "keyword1",
+    "keyword2"
+  ],
+  "author": "yuwancumian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuwancumian/biu-cli/issues"
+  },
+  "homepage": "https://github.com/yuwancumian/biu-cli",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "download-git-repo": "^1.1.0"
+  }
+}
